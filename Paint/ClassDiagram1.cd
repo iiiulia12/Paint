@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Paint.Canvas">
+    <Position X="3.75" Y="1.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACMQAAAAAAAAAAAAAAgAACAAAAAgDAAAAAAAQAAIAQA=</HashCode>
+      <FileName>Canvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.MYEllipse">
+    <Position X="4.75" Y="8" Width="2.5" />
+    <InheritanceLine Type="Paint.Shape" FixedFromPoint="true">
+      <Path>
+        <Point X="10.575" Y="6.588" />
+        <Point X="10.575" Y="7.625" />
+        <Point X="6" Y="7.625" />
+        <Point X="6" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ellipse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.MYLine">
+    <Position X="9" Y="8" Width="2.75" />
+    <InheritanceLine Type="Paint.Shape" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.575" Y="6.588" />
+        <Point X="10.575" Y="7.625" />
+        <Point X="10.562" Y="7.625" />
+        <Point X="10.562" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.NetworkClient">
+    <Position X="13.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAIAgAAAAEAAAAAAAAAEAAAA=</HashCode>
+      <FileName>NetworkClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.MYPoint">
+    <Position X="9" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAACAAABAAAAABgAAAABAA=</HashCode>
+      <FileName>Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.MYRectangle">
+    <Position X="14.5" Y="8" Width="2.75" />
+    <InheritanceLine Type="Paint.Shape" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.575" Y="6.588" />
+        <Point X="10.575" Y="7.625" />
+        <Point X="15.625" Y="7.625" />
+        <Point X="15.625" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Shape">
+    <Position X="9" Y="3.75" Width="3.5" />
+    <InheritanceLine Type="Paint.MYPoint" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.438" Y="3.017" />
+        <Point X="10.438" Y="3.375" />
+        <Point X="10.438" Y="3.375" />
+        <Point X="10.438" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAQAQAYAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
